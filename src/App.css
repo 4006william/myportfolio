@@ -1,22 +1,203 @@
-.App {
+*{
+  font-family: Georgia, serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.home{
+  /* background: rgb(61, 109, 117);  */
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 10px 5px 5px grey;
+}
+.homenav {
+  overflow: hidden;
+}
+.homebody h1{
+  font-size: 60px;
+}
+.homenav button {
+  float: right;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
+.homenav button:hover {
+  background-color: rgb(61, 109, 117);
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homenav button.active {
+  background-color: rgb(61, 109, 117);
+  color: white;
+}
+.homebody{
+  padding: 8% 5%;
+  background: rgb(61, 109, 117); 
+  margin: 10px 0px;
+}
+.homedetails{
+  padding-left: 10px;
+}
+.resume, .projects{
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 30px 5px 5px 15px rgb(61, 109, 117);
+}
+.contacts{
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 30px 5px 5px 15px rgb(61, 109, 117);
+}
+.resumebody, .projectsbody{
+  color: white;
+  margin: 20px;
+  background: rgb(61, 109, 117);
+  box-shadow: 10px 5px 5px grey;
+  padding: 20px;
+}
+.contactsbody{
+  color: white;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: rgb(61, 109, 117);
+  /* width: 800px; */
+  box-shadow: 10px 5px 5px grey;
+  padding: 5px;
+}
+ .contacts img{
+  height: 120px;
+  width: 180px;
+  margin: 10px;
+}
+i{
+  margin-right: 20px;
+}
+.contactsdetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactsdetails span{
+  display: flex;
+  align-items: center;
+}
+.socialmedia {
+  display: flex;
+}
+.fa-linkedin{
+  color: lightblue;
+}
+.fa-3x:hover{
+  font-size: 35px;
+  cursor: pointer;
+}
+.socialmedia button{
+  width: 50px;
+  display: block;
+  margin-left: 40px;
+  border: none;
+  background: none;
+}
+  
+button:focus {outline:0;}
+.resumetitle, .projectstitle{
+  text-align: center;
+}
+.resumedetails{
+  display: flex;
+  flex-direction: column;
+}
+.resumeblocks{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  line-height: 35px;
+}
+.resume-header{
+  margin-left: 40px;
+  text-decoration: underline;
+  font-size: 28px;
+  font-style: italic;
+}
+.project-canvas{
+  text-align: center;
+}
+.projectImages{
+  padding: 20px;
+}
+.projectImages img{
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  height: 320px;
+  background: none;
+  border: none;
+  width: 60%;
+  cursor: pointer;
+}
+.projectImages button{
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 320px;
+  background: none;
+  border: none;
+}
+.projectImages button, .projectImages img:hover{
+  width: 62%;
+  height: 330px;
+}
+.projectImages p{
+  font-size: 25px;
+  font-weight: 100;
+  background: white;
+  color: black;
+}
+.p-btn, .scroll-btn{
+  border: none;
+  padding: 5px;
+  background:white;
+  border-radius: 30px;
+  margin: 5px;
+}
+.p-btn:hover{
+  cursor: pointer;
+  background: rgb(65, 68, 240);
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.scroll-btn{
+  background: rgb(216, 57, 57);
+  color: white;
+  margin-top: 40px;
+}
+.scroll-btn:hover{
+  cursor: pointer;
+  background: red;
+}
+.project-canvas span{
+  font-size: 16px;
+}
+.copyright{
+  text-align: center;
+  color: black;
+}
+.project-details{
+  margin-top: 5%;
+}
+.mail-btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+ul span{
+  font-weight: bold;
 }
