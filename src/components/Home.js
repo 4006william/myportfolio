@@ -10,10 +10,10 @@ class Home extends Component {
     return (
         <div className="home">
             <div className="homenav">
+                <button className="active"><Link to="/">Home</Link></button>
+                <button><Link to="/projects">Projects</Link></button>
                 <button><Link to="/resume">Resume</Link></button>
                 <button><Link to="/contacts">Contacts</Link></button>
-                <button><Link to="/projects">Projects</Link></button>
-                <button className="active"><Link to="/">Home</Link></button>
             </div>
             <div className="homebody">
                 <h1>William E. Kiyola</h1>

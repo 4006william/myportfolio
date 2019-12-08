@@ -18,10 +18,10 @@ class Contacts extends Component {
     return (
         <div className="contacts">
             <div className="homenav">
+                <button><Link to="/">Home</Link></button>
+                <button><Link to="/projects">Projects</Link></button>
                 <button><Link to="/resume">Resume</Link></button>
                 <button className="active"><Link to="/contacts">Contacts</Link></button>
-                <button><Link to="/projects">Projects</Link></button>
-                <button><Link to="/">Home</Link></button>
             </div>
             <div className="contactsbody">
                 <img src={Globe} alt={<p>globe</p>} />

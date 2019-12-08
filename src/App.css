@@ -13,18 +13,21 @@ html{
 }
 .homenav {
   overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 .homebody h1{
   font-size: 60px;
 }
 .homenav button {
-  float: right;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 17px;
   border: none;
+  margin: 3px;
 }
 
 .homenav button:hover {
@@ -200,4 +203,8 @@ button:focus {outline:0;}
 }
 ul span{
   font-weight: bold;
+}
+#calc, #sushi, #beauticenter{
+  color: red;
+  font-style: italic;
 }

@@ -16,6 +16,9 @@ class Projects extends Component {
         const calcGithub = () =>{
             window.open('https://github.com/4006william/Scientific-Calculator', "_blank")
         }
+        const calcApp = () =>{
+            window.open('https://4006william.github.io/Scientific-Calculator/', "_blank")
+        }
         const scrollUp = () => {
             window.location.href="#top" 
           }
@@ -23,10 +26,12 @@ class Projects extends Component {
         return (
         <div className="projects">
             <div className="homenav">
+            <div className="homenav">
+                <button><Link to="/">Home</Link></button>
+                <button className="active"><Link to="/projects">Projects</Link></button>
                 <button><Link to="/resume">Resume</Link></button>
                 <button><Link to="/contacts">Contacts</Link></button>
-                <button className="active"><Link to="/projects">Projects</Link></button>
-                <button id="top"><Link to="/">Home</Link></button>
+            </div>
             </div>
             <div className="projectsbody">
                 <div className="projectstitle">
@@ -59,15 +64,16 @@ class Projects extends Component {
                     <button onClick={sushiGithub} className="p-btn">View App</button>
                     <button onClick={sushiGithub} className="p-btn">View Source Code</button>         
                </div>
+               <hr />
                 <div>
-                    <h2 id="vball">Scientific Calculator</h2>
-                    <h3>Stack: <span>React / MySQL / Express.js / HTML/CSS</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua.
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua.
+                    <h2 id="calc">Scientific Calculator</h2>
+                    <h3>Stack: <span> HTML/CSS/JavaScript</span></h3>
+                    <p>This application is a scientific calculator that performs more
+                        than your basic functions. It has more features and capabilities like
+                        finding sin, cos, and tan of geometrical values. Most functions came from the 
+                        JavaScript Math library. Click "View App" to use it.
                     </p>
-                    <button onClick={sushiGithub} className="p-btn">View App</button>
+                    <button onClick={calcApp} className="p-btn">View App</button>
                     <button onClick={calcGithub} className="p-btn">View Source Code</button>
                 </div>
                 <button onClick={scrollUp} className="scroll-btn">back to top</button>

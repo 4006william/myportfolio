@@ -15,10 +15,12 @@ class Resume extends Component {
         return (
         <div className="resume">
             <div className="homenav">
+            <div className="homenav">
+                <button><Link to="/">Home</Link></button>
+                <button><Link to="/projects">Projects</Link></button>
                 <button className="active"><Link to="/resume">Resume</Link></button>
                 <button><Link to="/contacts">Contacts</Link></button>
-                <button><Link to="/projects">Projects</Link></button>
-                <button><Link to="/">Home</Link></button>
+            </div>
             </div>
             <div className="resumebody">
                 <div className="resumetitle">
