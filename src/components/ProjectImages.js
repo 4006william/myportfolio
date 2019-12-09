@@ -28,13 +28,13 @@ class ProjectImages extends Component {
       containerClass: 'swiper-container'
     }
     const beauticenter = () => {
-      window.location.href="#beauticenter"
+      window.open('https://github.com/4006william/BeautiCenter', "_blank")
     }
     const sushi = () => {
-      window.location.href="#sushi"
+      window.open('https://github.com/4006william/Sushi-Restaurant', "_blank")
     }
      const calc = () => {
-      window.location.href="#calc"
+      window.open('https://4006william.github.io/Scientific-Calculator/', "_blank")
     }
   return (
       <div className="projectImages">

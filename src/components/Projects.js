@@ -19,19 +19,15 @@ class Projects extends Component {
         const calcApp = () =>{
             window.open('https://4006william.github.io/Scientific-Calculator/', "_blank")
         }
-        const scrollUp = () => {
-            window.location.href="#top" 
-          }
+       
 
         return (
         <div className="projects">
-            <div className="homenav">
             <div className="homenav">
                 <button><Link to="/">Home</Link></button>
                 <button className="active"><Link to="/projects">Projects</Link></button>
                 <button><Link to="/resume">Resume</Link></button>
                 <button><Link to="/contacts">Contacts</Link></button>
-            </div>
             </div>
             <div className="projectsbody">
                 <div className="projectstitle">
@@ -42,7 +38,7 @@ class Projects extends Component {
                 <ProjectImages />
                 <hr />
                 <div className="project-details">
-                    <h2 id="beauticenter">BeautiCenter</h2>
+                    <h2 className="beauticenter">BeautiCenter</h2>
                     <h3>Stack: <span>React / MySQL / Express.js / HTML/CSS</span></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua.
@@ -54,7 +50,7 @@ class Projects extends Component {
                 </div>
                 <hr />
                 <div>
-                    <h2 id="sushi">Sushi Restaurants</h2>
+                    <h2 className="sushi">Sushi Restaurants</h2>
                     <h3>Stack: <span>React / MySQL / Express.js / HTML/CSS</span></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua.
@@ -66,7 +62,7 @@ class Projects extends Component {
                </div>
                <hr />
                 <div>
-                    <h2 id="calc">Scientific Calculator</h2>
+                    <h2 className="calc">Scientific Calculator</h2>
                     <h3>Stack: <span> HTML/CSS/JavaScript</span></h3>
                     <p>This application is a scientific calculator that performs more
                         than your basic functions. It has more features and capabilities like
@@ -76,7 +72,6 @@ class Projects extends Component {
                     <button onClick={calcApp} className="p-btn">View App</button>
                     <button onClick={calcGithub} className="p-btn">View Source Code</button>
                 </div>
-                <button onClick={scrollUp} className="scroll-btn">back to top</button>
             </div>
             </div>
             <p className="copyright">&copy; 2019 William Kiyola</p>

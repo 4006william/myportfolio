@@ -6,12 +6,12 @@ import Resume from './components/Resume'
 
 
 
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router >
         <div className="App">
         <Route path='/resume' component={ Resume } />
         <Route path='/contacts' component={ Contacts } />

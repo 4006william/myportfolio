@@ -7,11 +7,7 @@ class Resume extends Component {
 
 
     render(){
-
-        const scrollUp = () => {
-            window.location.href="#top" 
-          }
-          
+           
         return (
         <div className="resume">
             <div className="homenav">
@@ -77,7 +73,6 @@ class Resume extends Component {
                         <h4>AUSTIN CODING ACADEMY (2019)</h4>
                         <h4>-Fullstack Web Development</h4>
                     </div>
-                    <button onClick={scrollUp} className="scroll-btn">back to top</button>
                 </div>
             </div>
             <p className="copyright">&copy; 2019 William Kiyola</p>
