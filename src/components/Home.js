@@ -16,9 +16,10 @@ class Home extends Component {
                 <button><Link to="/contacts">Contacts</Link></button>
             </div>
             <div className="homebody">
+                
                 <h1>William E. Kiyola</h1>
                 <div className="homedetails">
-                <h2>Full Stack Engineer</h2>
+                <h2>Full Stack Web Developer</h2>
                 <h3>JavaScript/AWS Certified Cloud Practitioner </h3>
                 <h4>React, Node.js, Express.js, MySQL, MongoDB, HTML/CSS </h4>
                 <h4>Austin, TX</h4>
