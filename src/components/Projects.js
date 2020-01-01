@@ -8,7 +8,10 @@ class Projects extends Component {
     render(){
 
         const beautiGithub = () =>{
-            window.open('https://github.com/4006william/BeautiCenter', "_blank")
+            window.open('https://github.com/4006william/4ever21-store', "_blank")
+        }
+        const beautiApp = () =>{
+            window.open('https://4006william.github.io/4ever21-store/#/', "_blank")
         }
         const sushiGithub = () =>{
             window.open('https://github.com/4006william/Sushi-Restaurant', "_blank")
@@ -38,14 +41,14 @@ class Projects extends Component {
                 <ProjectImages />
                 <hr />
                 <div className="project-details">
-                    <h2 className="beauticenter">BeautiCenter</h2>
-                    <h3>Stack: <span>React / MySQL / Express.js / HTML/CSS</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua.
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua.
+                    <h2 className="beauticenter">4ever21</h2>
+                    <h3>Stack: <span>React / Redux/ Material-UI / HTML/CSS</span></h3>
+                    <p>4ever21 is an online products shopping center. There's all kinds
+                        of makeup items for affordable prices. The web app is a light project to
+                        showcase a glimpse of my front-end programming skills. Hope you enjoy
+                        browsing through it!
                     </p>
-                    <button onClick={sushiGithub} className="p-btn">View App</button>
+                    <button onClick={beautiApp} className="p-btn">View App</button>
                     <button onClick={beautiGithub} className="p-btn">View Source Code</button>
                 </div>
                 <hr />

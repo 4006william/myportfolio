@@ -28,7 +28,7 @@ class ProjectImages extends Component {
       containerClass: 'swiper-container'
     }
     const beauticenter = () => {
-      window.open('https://github.com/4006william/BeautiCenter', "_blank")
+      window.open('https://4006william.github.io/4ever21-store/#/', "_blank")
     }
     const sushi = () => {
       window.open('https://github.com/4006william/Sushi-Restaurant', "_blank")
@@ -39,7 +39,7 @@ class ProjectImages extends Component {
   return (
       <div className="projectImages">
           <Swiper {...params}>
-          <button onClick={beauticenter}><p>BeautiCenter</p><img src={Makeup} alt={<p>makeup img</p>} /></button>
+          <button onClick={beauticenter}><p>4ever21 Store</p><img src={Makeup} alt={<p>makeup img</p>} /></button>
           <button onClick={sushi}><p>Sushi Restaurants</p><img src={Sushi} alt={<p>sushi</p>} /></button>
           <button onClick={calc}><p>Scientific Calculator</p><img src={Calc} alt={<p>calculator</p>} /></button>
           </Swiper>
