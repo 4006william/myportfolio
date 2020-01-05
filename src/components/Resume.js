@@ -28,8 +28,9 @@ class Resume extends Component {
                 <div className="resumeblocks">
                         <h3 className="resume-header">SKILLS</h3>
                         <ul>
-                            <li><span>FRONTEND(UI/UX):</span> HTML/CSS, JavaScript, React, WordPress and Responsive design with Material-UI/Bootstrap etc..</li>
-                            <li><span>MIDDLEWARE & BACKEND: </span>Node, MySQL/Mongo, Express, and Firebase.  </li>
+                            <li><span>FRONTEND(UI/UX):</span> HTML/CSS, JavaScript, jQuery, React, WordPress and Responsive design with Material-UI/Bootstrap etc..</li>
+                            <li><span>MIDDLEWARE & BACKEND: </span>Node, MySQL/MongoDB, Express, and Firebase.  </li>
+                            <li>Version control software - Git.  </li>
                             <li>Great at writing well designed, testable, efficient code by using best software development practices. </li>
                             <li>Can create website layout/user interfaces and integrating data from back-end services, APIs and databases. </li>
                             <li>Possess a strong understanding of UI, cross-browser compatibility, general web functions and standards. </li>

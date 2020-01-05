@@ -20,7 +20,7 @@ class Home extends Component {
                 <h1>William E. Kiyola</h1>
                 <div className="homedetails">
                 <h2>Full Stack Web Developer</h2>
-                <h3>JavaScript/AWS Certified Cloud Practitioner </h3>
+                <h3>JavaScript/jQuery </h3>
                 <h4>React, Node.js, Express.js, MySQL, MongoDB, HTML/CSS </h4>
                 <h4>Austin, TX</h4>
                 </div>
