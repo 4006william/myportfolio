@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Swiper from 'react-id-swiper';
-import Sushi from '../images/sushi.jpeg'
+import Myday from '../images/myday.jpg'
 import Makeup from '../images/makeup.png'
 import Calc from '../images/calc.jpg'
 
@@ -30,8 +30,8 @@ class ProjectImages extends Component {
     const beauticenter = () => {
       window.open('https://4006william.github.io/4ever21-store/#/', "_blank")
     }
-    const sushi = () => {
-      window.open('https://github.com/4006william/Sushi-Restaurant', "_blank")
+    const myDay = () => {
+      window.open('https://4006william.github.io/myDay/', "_blank")
     }
      const calc = () => {
       window.open('https://4006william.github.io/Scientific-Calculator/', "_blank")
@@ -40,7 +40,7 @@ class ProjectImages extends Component {
       <div className="projectImages">
           <Swiper {...params}>
           <button onClick={beauticenter}><p>4ever21 Store</p><img src={Makeup} alt={<p>makeup img</p>} /></button>
-          <button onClick={sushi}><p>Sushi Restaurants</p><img src={Sushi} alt={<p>sushi</p>} /></button>
+          <button onClick={myDay}><p>myDay</p><img src={Myday} alt={<p>myday img</p>} /></button>
           <button onClick={calc}><p>Scientific Calculator</p><img src={Calc} alt={<p>calculator</p>} /></button>
           </Swiper>
     </div>
