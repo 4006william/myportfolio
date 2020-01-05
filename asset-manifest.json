@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "./static/css/main.1dd01650.chunk.css",
-    "main.js": "./static/js/main.003a48b3.chunk.js",
-    "main.js.map": "./static/js/main.003a48b3.chunk.js.map",
+    "main.js": "./static/js/main.bd884655.chunk.js",
+    "main.js.map": "./static/js/main.bd884655.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b4cc70fc.js",
     "runtime-main.js.map": "./static/js/runtime-main.b4cc70fc.js.map",
     "static/js/2.9c49220d.chunk.js": "./static/js/2.9c49220d.chunk.js",
     "static/js/2.9c49220d.chunk.js.map": "./static/js/2.9c49220d.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.0c326f52a96ddf4330237e8c982bfbc7.js": "./precache-manifest.0c326f52a96ddf4330237e8c982bfbc7.js",
+    "precache-manifest.ff39a6c7ed9b558692a04215d685057f.js": "./precache-manifest.ff39a6c7ed9b558692a04215d685057f.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.1dd01650.chunk.css.map": "./static/css/main.1dd01650.chunk.css.map",
     "static/media/Globe.png": "./static/media/Globe.525801a0.png",
     "static/media/calc.jpg": "./static/media/calc.d433e367.jpg",
     "static/media/makeup.png": "./static/media/makeup.f662ecbc.png",
-    "static/media/sushi.jpeg": "./static/media/sushi.39842558.jpeg"
+    "static/media/myday.jpg": "./static/media/myday.f2a45cef.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b4cc70fc.js",
     "static/js/2.9c49220d.chunk.js",
     "static/css/main.1dd01650.chunk.css",
-    "static/js/main.003a48b3.chunk.js"
+    "static/js/main.bd884655.chunk.js"
   ]
 }
